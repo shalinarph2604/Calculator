@@ -4,30 +4,32 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-image: url('images/background.webp');
 }
 
 .selector-for-some-widget {
   box-sizing: content-box;
 }
   
-  .calculator {
-    width: 300px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-  }
+.calculator {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: white;
+}
   
-  .calculator button, .calculator input {
-    padding: 15px;
-    font-size: 18px;
-    text-align: center;
-  }
+.calculator button, .calculator input {
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.calculator input {
+  grid-column: span 4;
+}
   
-  .calculator input {
-    grid-column: span 4;
-  }
-  
-  button {
-    cursor: pointer;
-    background-color: #eaf321;
-      }
+button {
+  cursor: pointer;
+  background-color: #eaf321;
+    }
