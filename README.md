@@ -3,7 +3,8 @@
 This is a basic digital calculator
 
 ## Tech Stack
-- Javascript, HTML CSS
+- Javascript, HTML, CSS
+- CSS Framework: Bootstrap
 
 ## Getting Started
 1. Clone the repo
